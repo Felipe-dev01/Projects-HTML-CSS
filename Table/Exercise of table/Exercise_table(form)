@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM/TABLE</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" style="background-color: rgb(224, 224, 224);">Dados de login</td>
+        </tr>
+        <tr>
+            <td>
+                <h5>CPF</h5>
+                <input type="text" name="cpf" id="cpf" placeholder="___.___.___ - __">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>E-mail</h5>
+                <input type="email" name="email" id="email">
+            </td>
+            <td>
+                <h5>Confirmar</h5>
+                <input type="email" name="email_confirm" id="email_confirm">
+            </td>
+            <td>
+                <h5>Senha</h5>
+                <input type="password" name="senha" id="senha">
+            </td>
+            <td>
+                <h5>Confirmar</h5>
+                <input type="password" name="senha_confirm" id="senha_confirm">
+            </td>
+        </tr>
+    </table>
+            <br><br><br>
+    <table>
+        <tr>
+            <td colspan="4" style="background-color: rgb(224, 224, 224);">Dados de contato</td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Nome</h5>
+                <input type="text" name="nome" id="nome">
+            </td>
+            <td>
+                <h5>Sobrenome</h5>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Data de nascimento</h5>
+                <input type="date" name="data" id="data">
+            </td>
+            <td>
+                <h5>RG</h5>
+                <input type="text" name="rg" id="rg">
+            </td>
+            <td>
+                <h5>Sexo</h5>
+                <select name="sexo" id="sexo">
+                    <option>Selecione</option>
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                </select>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <h5>CEP</h5>
+                <input type="text" name="cep" id="cep">
+            </td>
+            <td>
+                <h5>Endereço</h5>
+                <input type="text" name="ender" id="ender">
+            </td>
+            <td>
+                <h5>Nº</h5>
+                <input type="number" name="numero" id="numero">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Bairro</h5>
+                <input type="text" name="bairro" id="bairro">
+            </td>
+            <td>
+                <h5>Complemento</h5>
+                <input type="text" name="complemento" id="complemento">
+            </td>
+            <td>
+                <h5>Cidade</h5>
+                <input type="text" name="cidade" id="cidade">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Estado</h5>
+                <input type="text" name="estado" id="estado">
+            </td>
+            <td>
+                <h5>DDD+Telefone</h5>
+                <input type="text" name="telefone" id="telefone">
+            </td>
+            <td>
+                <h5>DDD+Celular</h5>
+                <input type="text" name="celular" id="celular">
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+
+        <tr>
+            <td></td>
+            <td><img src="https://w7.pngwing.com/pngs/1004/603/png-transparent-check-mark-certo-angle-leaf-service.png" width="20px"></td>
+            <td>Nome:</td>
+            <td colspan="3"><input type="text" name="nome" id="nome"  placeholder="Está é a maneira que você será indentificado"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><img src="https://w7.pngwing.com/pngs/1004/603/png-transparent-check-mark-certo-angle-leaf-service.png" width="20px"></td>
+            <td>CPF:</td>
+            <td><input type="text" name="cpf" id="cpf"></td>
+            <td><img src="data:image/png;base64,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" width="20px"></td>
+            <td>Utilizamos o CPF para valitar junto à Receita Federal a sua Identidade</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><img src="https://w7.pngwing.com/pngs/1004/603/png-transparent-check-mark-certo-angle-leaf-service.png" width="20px"></td>
+            <td>Idade:</td>
+            <td><input type="number" name="idade" id="idade"></td>
+            <td><img src="data:image/png;base64,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" width="20px"></td>
+            <td>Este serviço só pode ser acessado por malores de 17 anos, por isso precisamos armazenar a sua idade</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Genêro:</td>
+            <td>
+                <select name="genero" id="genero">
+                    <option>Selecione</option>
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                </select>
+            </td>
+            <td><img src="data:image/png;base64,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" width="20px"></td>
+            <td>Opcionalhão precisamos do primeiro, mas se informado o serviço será customizado para você</td>
+        </tr>
+        <tr >
+            <td></td>
+            <td></td>
+            <td colspan="2">A proteção de cados é nossa prioridade. Para obter mais informações sobre como trataremos os seus dados, clique para acessar nossa Politica de Pracidade.</td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="Enviar"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><img src="https://w7.pngwing.com/pngs/1004/603/png-transparent-check-mark-certo-angle-leaf-service.png" width="20px"></td>
+            <td>Campos Obrigatórios</td>
+        </tr>
+    </table>
+
+</body>
+</html>
